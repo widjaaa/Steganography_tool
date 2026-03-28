@@ -6,24 +6,24 @@ Tool ini digunakan untuk menerapkan teknik Steganografi menggunakan metode LSB (
 
 Berikut adalah fitur yang disediakan beserta cara penggunaannya. 
 
-> **Catatan:** Contoh perintah di bawah menggunakan nama `lsb.py`. Jika file Anda bernama `stegano_lsb_tool.py`, silakan ganti `lsb.py` menjadi `stegano_lsb_tool.py` saat menjalankannya di terminal.
+> **Catatan:** Contoh perintah di bawah menjalankan script Python `stegano_lsb_tool.py`. Pastikan Anda berada di direktori yang sama dengan tempat file tersebut tersimpan.
 
 ### 1. Menyembunyikan File (Hide)
 Meyembunyikan sebuah file rahasia ke dalam file gambar asli.
 ```bash
-python3 lsb.py hide [nama_gambar_asli] [nama_file_rahasia]
+python3 stegano_lsb_tool.py hide [nama_gambar_asli] [nama_file_rahasia]
 ```
 
 ### 2. Mengekstrak File (Extract)
 Membaca dan mengekstrak file rahasia yang telah disembunyikan sebelumnya di dalam gambar *stego* ke file hasil yang baru.
 ```bash
-python3 lsb.py extract [nama_file_stego] [nama_file_hasil]
+python3 stegano_lsb_tool.py extract [nama_file_stego] [nama_file_hasil]
 ```
 
 ### 3. Menganalisis Gambar (Analyse)
 Menganalisis file *stego* gambar. Bermanfaat untuk melihat perubahan atau memeriksa informasi visual dari LSB gambar tersebut.
 ```bash
-python3 lsb.py analyse [nama_file_stego]
+python3 stegano_lsb_tool.py analyse [nama_file_stego]
 ```
 
 ## Persyaratan (Requirements)
